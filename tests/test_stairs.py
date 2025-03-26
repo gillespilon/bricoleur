@@ -1,9 +1,9 @@
-import pytest
+from pytest import approx, mark
 
 import bricoleur as bric
 
 
-@pytest.mark.parametrize(
+@mark.parametrize(
     "total_rise, max_riser_height, expected",
     [
         (77.5, 7, 12),
