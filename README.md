@@ -9,7 +9,7 @@ Why **bricoleur**?
 
 # Documentation
 
-Full documentation will be available in the future.
+Full documentation is available at [https://bricoleur.readthedocs.io/en/latest/](https://bricoleur.readthedocs.io/en/latest/).
 
 # References
 
