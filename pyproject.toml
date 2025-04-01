@@ -7,7 +7,7 @@ name = "bricoleur"
 authors = [{name = "Gilles Pilon", email = "gillespilon13@gmail.com"}]
 readme = "README.md"
 license = {file = "LICENSE"}
-version = "0.0.1"
+version = "0.0.2"
 description="Tools for 'bricoleurs' who engage is the art of 'bricolage.'"
 classifiers = [
     "Programming Language :: Python :: 3",
