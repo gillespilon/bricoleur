@@ -18,7 +18,7 @@ copyright = '2025, Gilles Pilon'
 author = 'Gilles Pilon'
 # version = metadata.version(project)
 # release = version
-release = '0.0.1'
+release = '0.0.2'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
