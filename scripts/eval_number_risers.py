@@ -13,15 +13,15 @@ def main():
     parser.add_argument(
         "-tr",
         "--total_rise",
-        default=77.5,
+        default=100,
         type=float,
         required=False,
         help="Provide the total rise",
     )
     parser.add_argument(
-        "-xrh",
+        "-mrh",
         "--max_riser_height",
-        default=7,
+        default=7.5,
         type=float,
         required=False,
         help="Provide the maximum riser height",
