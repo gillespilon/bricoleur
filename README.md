@@ -19,6 +19,6 @@ To cite this repository, please use:
   author  = {Gilles Pilon},
   title   = {bricoleur},
   url     = {https://github.com/gillespilon/bricoleur},
-  version = {0.0.2},
-  date    = {2025-04-01}
+  version = {0.0.3},
+  date    = {2025-04-02}
 }
