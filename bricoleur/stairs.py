@@ -119,6 +119,6 @@ def total_run(
 
 __all__ = (
     "number_risers",
-    "riser_height"
+    "riser_height",
     "total_run"
 )
