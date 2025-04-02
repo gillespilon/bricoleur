@@ -29,3 +29,16 @@ def test_riser_height(total_rise, number_risers, expected):
         total_rise=total_rise, number_risers=number_risers
     )
     assert result == expected
+
+
+@mark.parametrize(
+    "number_risers, tread_depth, expected",
+    [
+        (14, 11, 143)
+    ],
+)
+def test_total_run(number_risers, tread_depth, expected):
+    result = bric.total_run(
+        number_risers=number_risers, tread_depth=tread_depth
+    )
+    assert result == expected
