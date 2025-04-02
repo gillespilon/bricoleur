@@ -81,7 +81,44 @@ def riser_height(
     return riser_height
 
 
+def total_run(
+    number_risers: int,
+    tread_depth: float
+    ) -> float:
+    """
+    Calculate the total run.
+
+    Parameters
+    ----------
+    number_risers : int
+        The maximum riser height (usually from the building code).
+    tread_depth : float
+        The depth of the tread.
+
+    Returns
+    -------
+    total_run
+        The total run.
+
+    Example
+    -------
+
+    >>> import bricoleur as bric
+    >>> number_risers_datum = 14
+    >>> tread_depth_datum = 11
+    >>> riser_height = bric.total_run(
+    >>>     number_risers = number_risers_datum,
+    >>>     tread_depth = tread_depth_datum
+    >>> )
+    >>> print(total_run)
+    143
+    """
+    total_run = (number_risers -1) * tread_depth
+    return total_run
+
+
 __all__ = (
     "number_risers",
     "riser_height"
+    "total_run"
 )
